@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: rgb(47, 47, 47);
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+.panel {
+  display: flex;
+  background-color: rgb(37, 37, 37);
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: xx-large;
+  text-shadow: 2px 2px  black;
+  font-family: comic sans MS;
+  text-transform: uppercase;
+  user-select: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.panel-item {
+  flex-wrap: wrap;
+  text-overflow: none;
+  overflow-wrap: break-word;
+  border-radius: 16px;
+  padding: 64px;
+  text-align:center;
+  line-height: 32px;
+  margin: 8px;
+}
+
+input {
+  text-align: center;
+  margin: 8px;
+  color: rgb(0, 0, 0);
+  font-size: large;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  width: 64px;
+  height: 32px;
+  font-size: x-large;
+}
+
+.add {
+  height: 32px;
+  border: none;
+  text-transform: uppercase;
+  width: 64px;
+  text-shadow: 1px 1px black;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.add:hover {
+  box-shadow: 1px 1px 4px 1px black;
+  text-shadow: 2px 2px black;
+}
+
+button {
+  margin: auto;
+  font-size: large;
+}
