@@ -1,0 +1,88 @@
+.menu {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 64px;
+  background-color: rgb(49, 49, 49);
+  text-align: center;
+  line-height: 64px;
+  color: white;
+  text-transform: uppercase;
+  user-select: none;
+  font-size: x-large;
+  text-align: center;
+}
+
+.menu-item {
+  width: 100%;
+}
+
+
+.menu-item:hover {
+  cursor: pointer;
+  color: orangered;
+  text-shadow: 1px 1px black;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    font-size: medium;
+  }
+}
+
+section {
+  text-align: center;
+  background-color: rgb(66, 66, 66);
+}
+
+.page-name {
+  font-size: xx-large;
+  color:  rgb(255, 255, 255);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: rgb(56, 56, 56);
+}
+
+.content {
+  color: white;
+  font-size: large;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding: 16px;
+}
+
+.icon-container {
+  padding: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(6, 38, 51);
+}
+
+svg {
+  user-select: none;
+  cursor: pointer;
+}
+
+svg:hover {
+  background-color: rgb(8, 51, 68);
+}
+
+.product-container {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.product-item {
+  text-align: center;
+  margin: auto;
+  background-color: rgb(6, 38, 51);
+  width: 80vw;
+  border-radius: 16px;
+  color: white;
+  user-select: none;
+  cursor: pointer;
+}
