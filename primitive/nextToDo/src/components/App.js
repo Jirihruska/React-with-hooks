@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 //Imported components
 import Header from './Header';
@@ -15,6 +15,8 @@ const App = () => {
     const [bg, setBg] = useState('');
     //dataState
     const [group, setGroup] = useState([]);
+    
+    useEffect(() => {console.log('render')}, []);
 
     return (
         <React.Fragment>
