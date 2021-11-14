@@ -1,0 +1,29 @@
+.lives {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  background-color: rgb(39, 30, 28);
+  text-align: center;
+  top: 200px;
+  outline: none;
+  height: 60px;
+  width: auto;
+  border-radius: 16px;
+  border: none;
+  font-size: 32px;
+  color: white;
+  text-transform: uppercase;
+  left: 800px;
+}
+
+.live {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  height: 32px;
+  width: 16px;
+  border-radius: 16px;
+  background-color: tomato;
+  border-bottom: 4px solid rgb(173, 62, 42);
+  border-right: 2px solid rgb(173, 62, 42);
+}

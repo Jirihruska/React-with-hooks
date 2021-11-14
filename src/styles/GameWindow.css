@@ -1,0 +1,18 @@
+.canva {
+  position: absolute;
+  background-color: gainsboro;
+  top: 100px;
+  left: 100px;
+  height: 200px;
+  width: 600px;
+  word-break: break-all;
+  overflow: auto;
+  border-radius: 16px;
+  text-align: center;
+  color:#282c34;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  padding: 32px;
+  user-select: none;
+  border: none;
+}
